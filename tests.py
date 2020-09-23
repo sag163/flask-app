@@ -1,6 +1,7 @@
 import unittest
 import hello as tested_app
 
+
 class FlaskAppTests(unittest.TestCase):
     def setUp(self):
         tested_app.app.config['TESTING'] = True
